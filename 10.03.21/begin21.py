@@ -4,7 +4,7 @@ from functools import reduce
 
 def main():
     points = get_points(3, ['x', 'y'])
-    print(f'Площадь фигуры: {get_square(points)}')
+    print(f'Площадь фигуры: {get_square(points):.2f}')
 
 
 def get_square(points: list) -> float:
